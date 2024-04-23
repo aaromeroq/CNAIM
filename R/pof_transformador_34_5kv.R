@@ -194,6 +194,8 @@ pof_transformador_34_5kv <- function(tipo_transformador = "66kV Transformer (GM)
     gb_ref_taken <- gb_ref_given
   }
 
+  return(data.frame(lalal = tipo_transformador))
+}
   # Ref. table Categorisation of Assets and Generic Terms for Assets  --
 
   asset_category <- gb_ref_taken$categorisation_of_assets %>%
