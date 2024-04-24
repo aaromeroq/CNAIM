@@ -903,5 +903,5 @@ pof_transformador_34_5kv <- function(tipo_transformador = "66kV Transformer (GM)
        (((c * current_health_score)^2) / factorial(2)) +
        (((c * current_health_score)^3) / factorial(3)))
 
-  return(data.frame(pof = probability_of_failure, chs = current_health_score))
+  return(data.frame(pof = probability_of_failure, chs = current_health_score, ocftc = observed_condition_factor_tc))
 }
