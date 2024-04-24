@@ -193,7 +193,7 @@ pof_transformador_34_5kv <- function(tipo_transformador = "66kV Transformer (GM)
     check_gb_ref_given(gb_ref_given)
     gb_ref_taken <- gb_ref_given
   }
-
+ print(gb_ref)
 
   # Ref. table Categorisation of Assets and Generic Terms for Assets  --
 
